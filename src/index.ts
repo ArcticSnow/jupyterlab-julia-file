@@ -17,11 +17,11 @@ const ICON_CLASS = 'jp-PythonIcon';
 const PALETTE_CATEGORY = 'Text Editor';
 
 namespace CommandIDs {
-  export const createNew = 'fileeditor:create-new-python-file';
+  export const createNew = 'fileeditor:create-new-julia-file';
 };
 
 const extension: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab-python-file',
+  id: 'jupyterlab-julia-file',
   autoStart: true,
   requires: [
     IFileBrowserFactory,
@@ -43,8 +43,8 @@ const extension: JupyterFrontEndPlugin<void> = {
     const command = CommandIDs.createNew;
 
     commands.addCommand(command, {
-      label: args => (args['isPalette'] ? 'New Python File' : 'Python File'),
-      caption: 'Create a new Python file',
+      label: args => (args['isPalette'] ? 'New Julia File' : 'Julia File'),
+      caption: 'Create a new Julia file',
       iconClass: args => (args['isPalette'] ? '' : ICON_CLASS),
       execute: async args => {
         const cwd = args['cwd'] || browserFactory.defaultBrowser.model.path;
@@ -52,7 +52,7 @@ const extension: JupyterFrontEndPlugin<void> = {
           .execute('docmanager:new-untitled', {
             path: cwd,
             type: 'file',
-            ext: 'py'
+            ext: 'jl'
           });
         return commands.execute('docmanager:open', {
           path: model.path,

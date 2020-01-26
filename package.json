@@ -1,18 +1,18 @@
 {
-  "name": "jupyterlab-python-file",
+  "name": "jupyterlab-julia-file",
   "version": "0.3.0",
-  "description": "Create Python Files from JupyterLab",
+  "description": "Create Julia Files from JupyterLab",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/jtpio/jupyterlab-python-file",
+  "homepage": "https://github.com/arcticsnow/jupyterlab-julia-file",
   "bugs": {
-    "url": "https://github.com/jtpio/jupyterlab-python-file/issues"
+    "url": "https://github.com/arcticsnow/jupyterlab-julia-file/issues"
   },
   "license": "BSD-3-Clause",
-  "author": "Jeremy Tuloup",
+  "author": "Jeremy Tuloup, adapted by S. Filhol",
   "files": [
     "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
     "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
@@ -21,7 +21,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jtpio/jupyterlab-python-file.git"
+    "url": "https://github.com/arcticsnow/jupyterlab-julia-file.git"
   },
   "scripts": {
     "build": "tsc",

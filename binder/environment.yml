@@ -1,7 +1,7 @@
-name: jupyterlab-python-file
+name: jupyterlab-julia-file
 channels:
 - conda-forge
 dependencies:
 - jupyterlab=1.0
-- python=3.7
+- julia=1.0
 

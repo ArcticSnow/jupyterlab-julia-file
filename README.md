@@ -1,9 +1,12 @@
-# jupyterlab-python-file
+# jupyterlab-julia-file
+
+WARNING: NOTE WORKING AT THE MOMENT!!!!!!!!! NEED TO BE TESTED!!!!!!!
+
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtpio/jupyterlab-python-file/master?urlpath=lab)
 [![npm](https://img.shields.io/npm/v/jupyterlab-python-file.svg)](https://www.npmjs.com/package/jupyterlab-python-file)
 
-Create Python Files from JupyterLab
+Create Julia Files from JupyterLab
 
 ![screenshot](./doc/screenshot.png)
 
@@ -16,7 +19,7 @@ Create Python Files from JupyterLab
 ## Installation
 
 ```bash
-jupyter labextension install jupyterlab-python-file
+jupyter labextension install jupyterlab-julia-file
 ```
 
 ## Development

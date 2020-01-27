@@ -1,7 +1,5 @@
 # jupyterlab-julia-file
 
-WARNING: 1st version NEED TO BE TESTED!!!!!!!
-
 To create Julia files (`.jl`) from JupyterLab launcher editor.
 
 Extension adapted from https://github.com/jtpio/jupyterlab-python-file

@@ -1,5 +1,5 @@
 {
-  "name": "jupyterlab-julia-file",
+  "name": "@arcticsnow/jupyterlab-julia-file",
   "version": "0.3.0",
   "description": "Create Julia Files from JupyterLab",
   "keywords": [
@@ -12,7 +12,7 @@
     "url": "https://github.com/arcticsnow/jupyterlab-julia-file/issues"
   },
   "license": "BSD-3-Clause",
-  "author": "Jeremy Tuloup, adapted by S. Filhol",
+  "author": "Jeremy Tuloup, adapted for Julia by S. Filhol",
   "files": [
     "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
     "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"

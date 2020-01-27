@@ -13,7 +13,7 @@ import { IMainMenu } from '@jupyterlab/mainmenu';
 import '../style/index.css';
 
 const FACTORY = 'Editor';
-const ICON_CLASS = 'jp-PythonIcon';
+const ICON_CLASS = 'jp-JuliaIcon';
 const PALETTE_CATEGORY = 'Text Editor';
 
 namespace CommandIDs {

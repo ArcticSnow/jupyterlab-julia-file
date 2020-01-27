@@ -1,14 +1,10 @@
 # jupyterlab-julia-file
 
-WARNING: NOTE WORKING AT THE MOMENT!!!!!!!!! NEED TO BE TESTED!!!!!!!
+WARNING: 1st version NEED TO BE TESTED!!!!!!!
 
+To create Julia files (`.jl`) from JupyterLab launcher editor.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtpio/jupyterlab-python-file/master?urlpath=lab)
-[![npm](https://img.shields.io/npm/v/jupyterlab-python-file.svg)](https://www.npmjs.com/package/jupyterlab-python-file)
-
-Create Julia Files from JupyterLab
-
-![screenshot](./doc/screenshot.png)
+Extension adapted from https://github.com/jtpio/jupyterlab-python-file
 
 ![screenshot2](./doc/screenshot2.png)
 
@@ -19,7 +15,7 @@ Create Julia Files from JupyterLab
 ## Installation
 
 ```bash
-jupyter labextension install jupyterlab-julia-file
+jupyter labextension install @arcticsnow/jupyterlab-julia-file
 ```
 
 ## Development
